@@ -1,0 +1,45 @@
+#------ Configuration Database= [BILLING_SCHEMA] ------------------------
+db_class=oracle.jdbc.OracleDriver
+db_url=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.120.44.218)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = testlab)))
+db_user=billing_import
+db_pass=abcd1234
+
+db_class_tms=oracle.jdbc.OracleDriver
+db_url_tms=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.120.44.218)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = testlab)))
+db_user_tms=tms
+db_pass_tms=abcd1234
+
+db_class_cmpos=oracle.jdbc.OracleDriver
+db_url_cmpos=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.120.44.218)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = testlab)))
+db_user_cmpos=cm_pos2
+db_pass_cmpos=abcd1234
+
+db_class_cmpre=oracle.jdbc.OracleDriver
+db_url_cmpre=jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.120.44.218)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = testlab)))
+db_user_cmpre=cm_pre2
+db_pass_cmpre=abcd1234
+
+#------ Configuration number of Threads ------------------------
+FILE_TEMPLATE_NOTICE=../template/TBC.pdf
+#FILE_TEMPLATE_NOTICE=D:/DEVELOPMENT3/Projects/Billing_automotic_Send SMS_Process/NoticeProcess_VTB/NoticeProcess/template/TBC.pdf
+#PATH_NOTICE_OUT=../invoice_out/
+PATH_NOTICE_OUT=../report_out
+TIME_SLEEP=1
+#------ Configuration number of Threads ------------------------
+NUM_THREAD_SMS=1
+NUM_THREAD_EMAIL=1
+NUM_THREAD_BUILD=1
+
+#----------- Sleep for each item (ms) ----------------------------------
+WAIT_EACH_SMS=200
+WAIT_EACH_BUILD=200
+WAIT_EACH_EMAIL=500
+
+#----------- Sleep for next step (s) ----------------------------------
+WAIT_THREAD_SMS=300
+WAIT_THREAD_EMAIL=300
+#------ Configuration Language for send SMS of FTTH  ------------------------
+LA=57
+EN=89
+VN=84
+CH=86

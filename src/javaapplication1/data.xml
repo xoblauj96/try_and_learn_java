@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns:listPackageResponse xmlns:ns="http://AirTimeDataWS.airtimedata.itpro.com" xmlns:ax21="http://AirTimeDataWS.airtimedata.itpro.com/xsd">
+         <ns:return xsi:type="ax21:Package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:idx>1</ax21:idx>
+            <ax21:name>UT1</ax21:name>
+            <ax21:price>1000</ax21:price>
+            <ax21:syntax>AP 1000</ax21:syntax>
+         </ns:return>
+         <ns:return xsi:type="ax21:Package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:idx>2</ax21:idx>
+            <ax21:name>UT2</ax21:name>
+            <ax21:price>2000</ax21:price>
+            <ax21:syntax>AP 2000</ax21:syntax>
+         </ns:return>
+         <ns:return xsi:type="ax21:Package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:idx>3</ax21:idx>
+            <ax21:name>UT3</ax21:name>
+            <ax21:price>3000</ax21:price>
+            <ax21:syntax>AP 3000</ax21:syntax>
+         </ns:return>
+         <ns:return xsi:type="ax21:Package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:idx>4</ax21:idx>
+            <ax21:name>UT4</ax21:name>
+            <ax21:price>4000</ax21:price>
+            <ax21:syntax>AP 4000</ax21:syntax>
+         </ns:return>
+         <ns:return xsi:type="ax21:Package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:idx>5</ax21:idx>
+            <ax21:name>UT5</ax21:name>
+            <ax21:price>5000</ax21:price>
+            <ax21:syntax>AP 5000</ax21:syntax>
+         </ns:return>
+         <ns:return xsi:type="ax21:Package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:idx>6</ax21:idx>
+            <ax21:name>UT10</ax21:name>
+            <ax21:price>10000</ax21:price>
+            <ax21:syntax>AP 10000</ax21:syntax>
+         </ns:return>
+      </ns:listPackageResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Body>
+        <ns2:getSubDetailResponse xmlns:ns2="http://ws.viettel.com/">
+            <return>
+                <actStatus>00</actStatus>
+                <actStatusBit>00</actStatusBit>
+                <address>ບ ຜາເທົາ ມ ວັງວຽງ  - ແຂວງວຽງຈັນ</address>
+                <adjustmentNagative>0</adjustmentNagative>
+                <currentPackage>4G_MI3</currentPackage>
+                <custId>0</custId>
+                <dataPos>0</dataPos>
+                <idNo>100146445</idNo>
+                <issueDate>28/08/2009</issueDate>
+                <issuePlace>10</issuePlace>
+                <lsAccount>|lstInfor| |arraId|1|arraId| |arraBalance|9|arraBalance| |arraName|1 KIP|arraName| |arraExpired|01/18/2023 12:00:00 AM|arraExpired| |lstInfor||lstInfor| |arraId|36|arraId| |arraBalance|1|arraBalance| |arraName|36 No use|arraName| |arraExpired|10/10/2100 10:10:10 AM|arraExpired| |lstInfor||lstInfor| |arraId|6|arraId| |arraBalance|22600|arraBalance| |arraName|6 No Use|arraName| |arraExpired|02/23/2023 09:26:55 PM|arraExpired| |lstInfor|</lsAccount>
+                <payment>0</payment>
+                <productCode>4EVER</productCode>
+                <responseCode>77</responseCode>
+                <serviceType>1</serviceType>
+                <staOfCycle>0</staOfCycle>
+                <standard>1</standard>
+                <startDatetime>22/02/2014</startDatetime>
+                <subId>102793721</subId>
+                <subType>1</subType>
+                <userUsing>ຊໍ ເລົ່າ</userUsing>
+            </return>
+        </ns2:getSubDetailResponse>
+    </S:Body>
+</S:Envelope>
